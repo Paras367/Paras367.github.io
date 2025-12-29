@@ -1,0 +1,45 @@
+<svg width="800" height="180" viewBox="0 0 800 180"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background (transparent by default) -->
+
+  <!-- Glow filter -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main Name -->
+  <text x="400" y="85"
+        text-anchor="middle"
+        font-size="56"
+        font-family="Poppins, Montserrat, Arial"
+        font-weight="700"
+        fill="#00f7ff"
+        filter="url(#glow)"
+        letter-spacing="4">
+    PARAS DHIMAN
+  </text>
+
+  <!-- Divider line -->
+  <line x1="200" y1="105" x2="600" y2="105"
+        stroke="#00f7ff"
+        stroke-width="2"
+        opacity="0.7"/>
+
+  <!-- Qualities -->
+  <text x="400" y="135"
+        text-anchor="middle"
+        font-size="16"
+        font-family="Poppins, Arial"
+        fill="#a8faff"
+        letter-spacing="3">
+    CREATOR • CODER • INNOVATOR • LEARNER
+  </text>
+
+</svg>
