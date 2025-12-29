@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Paras Dhiman | Developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Animate.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<!-- AOS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.glass {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.15);
+}
+.neon {
+    text-shadow: 0 0 10px #00f7ff;
+}
+</style>
+</head>
+
+<body class="bg-black text-white overflow-x-hidden">
+
+<!-- Particles Background -->
+<div id="particles-js" class="fixed inset-0 -z-10"></div>
+
+<!-- HERO -->
+<section class="min-h-screen flex items-center justify-center">
+  <div class="glass rounded-3xl p-10 text-center max-w-xl animate__animated animate__fadeInUp">
+
+    <h1 class="text-4xl font-bold neon mb-3">Paras Dhiman</h1>
+
+    <h2 class="text-xl text-cyan-300 mb-4">
+      <span id="typed"></span>
+    </h2>
+
+    <p class="text-sm opacity-90 mb-6">
+      Student • Programmer • Creator<br>
+      I build educational tools, Python projects,
+      interactive simulations and web apps.
+    </p>
+
+    <div class="flex justify-center gap-4">
+      <a href="https://github.com/Paras367" target="_blank"
+         class="px-5 py-2 rounded-full bg-cyan-400 text-black font-medium hover:scale-110 transition">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+
+      <a href="#projects"
+         class="px-5 py-2 rounded-full border border-cyan-400 hover:bg-cyan-400 hover:text-black transition">
+        Projects
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="py-20 text-center" data-aos="fade-up">
+  <h2 class="text-3xl font-bold mb-10 neon">Skills</h2>
+
+  <div class="flex flex-wrap justify-center gap-6">
+    <span class="glass px-6 py-3 rounded-full">Python</span>
+    <span class="glass px-6 py-3 rounded-full">Tkinter</span>
+    <span class="glass px-6 py-3 rounded-full">HTML</span>
+    <span class="glass px-6 py-3 rounded-full">CSS</span>
+    <span class="glass px-6 py-3 rounded-full">JavaScript</span>
+    <span class="glass px-6 py-3 rounded-full">GitHub</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-20 bg-white/5 text-center" data-aos="zoom-in">
+  <h2 class="text-3xl font-bold mb-10 neon">Projects</h2>
+
+  <div class="grid md:grid-cols-3 gap-6 px-6">
+    <div class="glass p-6 rounded-xl hover:scale-105 transition">
+      <h3 class="font-semibold">Interactive Periodic Table</h3>
+      <p class="text-sm opacity-80">Python Tkinter educational app</p>
+    </div>
+
+    <div class="glass p-6 rounded-xl hover:scale-105 transition">
+      <h3 class="font-semibold">Neural Network Visualizer</h3>
+      <p class="text-sm opacity-80">3D animated learning tool</p>
+    </div>
+
+    <div class="glass p-6 rounded-xl hover:scale-105 transition">
+      <h3 class="font-semibold">Adventure Quiz Engine</h3>
+      <p class="text-sm opacity-80">Story-based Python game</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-10 text-center opacity-70 text-sm">
+  © 2025 Paras Dhiman • Built with Code ⚡
+</footer>
+
+<!-- Typed.js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+new Typed("#typed", {
+  strings: [
+    "Python Developer",
+    "Educational App Builder",
+    "Creative Coder",
+    "Future Engineer"
+  ],
+  typeSpeed: 60,
+  backSpeed: 40,
+  loop: true
+});
+</script>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+<!-- Particles.js -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 80 },
+    color: { value: "#00f7ff" },
+    size: { value: 3 },
+    line_linked: { enable: true, color: "#00f7ff" },
+    move: { speed: 2 }
+  }
+});
+</script>
+
+</body>
+</html>
