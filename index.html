@@ -5,20 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Paras Dhiman (CyberVex) — Privacy-First AI Engineer</title>
 <meta name="description" content="Paras Dhiman (CyberVex) — Student Developer, Privacy-First AI Engineer, Cloudflare Specialist. Founder @ SoftwareLabs & BEVENU. Chandigarh, India." />
+<meta name="robots" content="index, follow">
 
-<!-- Fonts -->
+<link rel="canonical" href="https://paras367.github.io/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-
-<!-- GSAP -->
+  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<!-- hls.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.13/hls.min.js"></script>
+  
+<link rel="icon" href="favicon.svg" type="image/x-icon">
+
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+<meta name="geo.region" content="IN">
+<meta name="geo.placename" content="India">
 
 <style>
-  /* ============ TOKENS ============ */
   :root{
     --bg: 0 0% 4%;
     --surface: 0 0% 8%;
@@ -506,7 +512,7 @@
         <div class="card-hover"><div class="card-label"><div class="card-label-inner">View — <i>Gateway</i></div></div></div>
       </a>
 
-      <a class="card" href="https://softwarelabschd.github.io/softwarelabs/" target="_blank" rel="noopener">
+      <a class="card" href="https://paras367.github.io/Advanced_Codes/Bharat/" target="_blank" rel="noopener">
         <div class="card-bg"><img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=1600&q=80" alt="BHARAT — A Nation Rising website" loading="lazy"></div>
         <div class="card-shade"></div><div class="card-halftone"></div>
         <div class="card-meta">
@@ -642,7 +648,6 @@
   </div>
 </section>
 
-<!-- ============ EXPLORATIONS (PARALLAX) ============ -->
 <section class="explorations" id="explorations">
   <div class="expl-pin" id="explPin">
     <div class="expl-pin-inner">
@@ -669,7 +674,6 @@
   </div>
 </section>
 
-<!-- ============ STATS ============ -->
 <section class="stats">
   <div class="wrap">
     <div class="stats-grid">
@@ -680,7 +684,6 @@
   </div>
 </section>
 
-<!-- ============ FOOTER / CONTACT ============ -->
 <footer class="footer" id="contact">
   <div class="footer-video-wrap"><video id="footerVideo" autoplay muted loop playsinline></video></div>
   <div class="footer-overlay"></div>
@@ -700,7 +703,7 @@
 
   <div class="wrap footer-bar">
     <div class="socials">
-      <a href="https://github.com/Paras367" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/Paras367" target="_blank" rel="noopener">GitHub-Paras</a>
       <a href="https://softwarelabschd.github.io/softwarelabs/" target="_blank" rel="noopener">SoftwareLabs</a>
       <a href="https://bevenu.vercel.app/" target="_blank" rel="noopener">Bevenu</a>
       <a href="mailto:dhimanparas605@gmail.com">Email</a>
@@ -715,7 +718,6 @@
 <script>
 gsap.registerPlugin(ScrollTrigger);
 
-/* ============ LOADING SCREEN COUNTER ============ */
 (function(){
   const words = ["Code","Create","Ship"];
   let wIdx = 0;
@@ -758,8 +760,6 @@ gsap.registerPlugin(ScrollTrigger);
   }
   requestAnimationFrame(tick);
 })();
-
-/* ============ HLS VIDEO SETUP ============ */
 function setupHls(video){
   const src = "https://stream.mux.com/Aa02T7oM1wH5Mk5EEVDYhbZ1ChcdhRsS2m1NYyx4Ua1g.m3u8";
   if(window.Hls && Hls.isSupported()){
@@ -773,14 +773,11 @@ function setupHls(video){
 setupHls(document.getElementById('heroVideo'));
 setupHls(document.getElementById('footerVideo'));
 
-/* ============ HERO GSAP ENTRANCE ============ */
 function initHeroEntrance(){
   const tl = gsap.timeline({ defaults:{ ease:'power3.out' } });
   tl.to('.name-reveal', { opacity:1, y:0, duration:1.2 }, 0.1)
     .to('.blur-in', { opacity:1, filter:'blur(0px)', y:0, duration:1, stagger:0.1 }, 0.3);
 }
-
-/* ============ ROLE WORD CYCLER ============ */
 (function(){
   const roles = ["Privacy-First AI Engineer","Founder","Cloudflare Specialist","Student Developer","Fullstack Creative"];
   let idx = 0;
@@ -793,8 +790,6 @@ function initHeroEntrance(){
     el.style.animation = 'role-fade-in .4s ease-out';
   }, 2400);
 })();
-
-/* ============ NAVBAR SCROLL STATE ============ */
 (function(){
   const pill = document.getElementById('navPill');
   window.addEventListener('scroll', ()=>{
@@ -810,8 +805,6 @@ function initHeroEntrance(){
     });
   });
 })();
-
-/* ============ SCROLL REVEALS ============ */
 function revealOnScroll(selector, vars){
   document.querySelectorAll(selector).forEach(el=>{
     gsap.to(el, {
@@ -828,8 +821,6 @@ revealOnScroll('.stat', { stagger:0.1 });
 revealOnScroll('.stack-group', { stagger:0.08 });
 revealOnScroll('.about-media');
 revealOnScroll('.about-body', { delay:0.15 });
-
-/* ============ STAT COUNT-UP ============ */
 document.querySelectorAll('.stat-num').forEach(el=>{
   const target = parseInt(el.dataset.count, 10);
   const suffix = el.dataset.suffix || '+';
@@ -844,8 +835,6 @@ document.querySelectorAll('.stat-num').forEach(el=>{
     }
   });
 });
-
-/* ============ EXPLORATIONS PARALLAX + PIN ============ */
 (function(){
   const pin = document.getElementById('explPin');
   ScrollTrigger.create({
@@ -865,8 +854,6 @@ document.querySelectorAll('.stat-num').forEach(el=>{
     scrollTrigger: { trigger: '.explorations', start:'top top', end:'bottom bottom', scrub:1 }
   });
 })();
-
-/* ============ FOOTER MARQUEE ============ */
 (function(){
   const track = document.getElementById('marqueeTrack');
   const text = "PRIVACY-FIRST • BROWSER-NATIVE • ZERO BUILD • ";
