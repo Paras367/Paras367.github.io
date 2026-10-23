@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Instrument+Serif&weight=500&size=40&duration=3000&pause=1000&color=4E85BF&center=true&vCenter=true&multiline=true&width=700&height=120&lines=Paras+Dhiman+%F0%9F%91%8B; Privacy-First+AI+Engineer+%26+Founder" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Instrument+Serif&weight=500&size=40&duration=3000&pause=1000&color=4E85BF&center=true&vCenter=true&multiline=true&width=700&height=120&lines=Paras+Dhiman+%F0%9F%91%8B;Privacy-First+AI+Engineer+%26+Founder" alt="Typing SVG" />
 
 <br>
 
@@ -43,3 +43,15 @@ me = ParasDhiman()
 
 ---
 
+## 🚀 Featured Projects
+
+| # | Project | Description | Tech Stack | Live Demo |
+|:--|:--------|:------------|:-----------|:----------|
+| **01** | **[SoftwareLabs](https://github.com/Paras367/SoftwareLabs)** | Main company site — Digital Alchemy Engineered | `Vanilla JS` · `Embla.js` · `Zero Build` | [🌐 Live](https://softwarelabs.vercel.app/) |
+| **02** | **[BEVENU](https://github.com/Paras367)** | Premium sustainable fashion e-commerce platform | `Vanilla JS` · `Cloudflare Workers` · `Cart/Wishlist` | [🛍️ Live](https://bevenu.vercel.app/) |
+| **03** | **[After the Silence](https://github.com/Paras367/after-the-silence)** | Independent Indian archive documenting legal reforms & accountability | `Next.js` · `TypeScript` · `25+ Cases` | [📚 Live](https://after-the-silence.vercel.app/) |
+| **04** | **[Kaarvan](https://github.com/Paras367)** | Creative web platform with smooth interactions | `HTML` · `CSS` · `JS` · `Modern UI` | [🎨 Live](https://kaarvan.vercel.app/) |
+| **05** | **[Advanced_Codes](https://github.com/Paras367/Advanced_Codes)** | Curated repo of experimental, next-level HTML/CSS/JS projects | `HTML` · `CSS` · `JavaScript` | [📂 Source](https://github.com/Paras367/Advanced_Codes) |
+| **06** | **Privacy-First Face Auth** | Browser-native face recognition with liveness & blink detection | `face-api.js` · `TensorFlow.js` · `YOLO` | 🔒 In Progress |
+
+---
