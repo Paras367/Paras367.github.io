@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Instrument+Serif&weight=500&size=40&duration=3000&pause=1000&color=4E85BF&center=true&vCenter=true&multiline=true&width=700&height=120&lines=Paras+Dhiman+%F0%9F%91%8B;Privacy-First+AI+Engineer+%26+Founder" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Instrument+Serif&weight=500&size=40&duration=3000&pause=1000&color=4E85BF&center=true&vCenter=true&multiline=true&width=900&height=120&lines=Paras%20Dhiman%20%F0%9F%91%8B;Privacy-First%20AI%20Engineer%20%26%20Founder" alt="Typing SVG" />
 
 <br>
 
@@ -101,4 +101,56 @@ me = ParasDhiman()
 | :---: | :---: | :---: |
 | **6+** | **20+** | **100%** |
 
+</div>
+
+---
+
+## 📬 Let's Connect
+
+| Platform | Link |
+| :--- | :--- |
+| 🐙 **GitHub** | [github.com/Paras367](https://github.com/Paras367) |
+| 🌐 **SoftwareLabs** | [softwarelabs.vercel.app](https://softwarelabs.vercel.app/) |
+| 🛍️ **BEVENU** | [bevenu.vercel.app](https://bevenu.vercel.app/) |
+| 📚 **After the Silence** | [after-the-silence.vercel.app](https://after-the-silence.vercel.app/) |
+| 💼 **Portfolio** | [paras367.github.io](https://paras367.github.io/) |
+| 📧 **Email** | [dhimanparas605@gmail.com](mailto:dhimanparas605@gmail.com) |
+| 🆔 **ORCID** | [0009-0007-4878-3410](https://orcid.org/0009-0007-4878-3410) |
+
+---
+
+## 📈 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Paras367&show_icons=true&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=89AACC&icon_color=4E85BF&text_color=e6e6e6&hide=contribs" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Paras367&theme=dark&hide_border=true&background=0a0a0a&stroke=121212&ring=4E85BF&fire=89AACC&currStreakLabel=89AACC" width="48%" alt="GitHub Streak" />
+  <br/><br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paras367&layout=compact&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=89AACC&text_color=e6e6e6" width="48%" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Paras367&theme=dark" width="48%" alt="Profile Details" />
+</div>
+
+---
+
+## 🔥 Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Paras367&theme=react-dark&bg_color=0a0a0a&hide_border=true&color=89AACC&line=4E85BF&point=ffffff&area=true" width="100%" alt="Contribution Graph" />
+</div>
+
+---
+
+<div align="center">
+  <br/>
+  <img src="https://komarev.com/ghpvc/?username=Paras367&color=4E85BF&style=flat-square&label=Profile+Views" alt="Profile Views" />
+  <br/><br/>
+  
+  <p>
+    <img src="https://img.shields.io/badge/Made_with_%F0%9F%94%A5_by-SoftwareLabs-4E85BF?style=flat-square" alt="Made by SoftwareLabs" />
+    <img src="https://img.shields.io/badge/Chairperson-Paras_Dhiman-89AACC?style=flat-square" alt="Chairperson Paras Dhiman" />
+    <img src="https://img.shields.io/badge/Available_for-Collaboration-4caf6b?style=flat-square" alt="Available for Collaboration" />
+  </p>
+  
+  <br/>
+  
+  <h3><em>"We don't just code — we transmute ideas into digital gold."</em></h3>
 </div>
